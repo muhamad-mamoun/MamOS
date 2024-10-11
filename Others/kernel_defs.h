@@ -31,6 +31,7 @@ Description  : Private definitions for the MamOS kernel.
 #define MAMOS_IDLE_TASK_ID                    (0U)                    /* Reserved ID for the idle task.              */
 #define MAMOS_MIN_STACK_SIZE                  (20U)                   /* Minimum allowed stack size [in words].      */
 #define MAMOS_MAX_NUM_OF_MUTEX                (10U)                   /* Maximum number of mutex allowed the system. */
+#define MAMOS_TASK_TRANS_REQUEST_SVC          (0x00)                  /* SVC to request an immediate context switch. */
 
 /* Total number of tasks in the system including idle task. */
 #define MAMOS_TOTAL_NUM_OF_TASKS              (MAMOS_MAX_NUM_OF_TASKS + 1)
