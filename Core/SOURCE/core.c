@@ -52,7 +52,7 @@ void MamOS_init(void)
 {
     /* Initialize all kernel subsystems. */
     MamOS_initMemory(&G_kernelControlPanel.kernelStackPointer);
-    MamOS_initScheduler();
+    TIMER_setCallBackFunction(MamOS_schedulerTick);
     
     /* Set the PendSV interrupt periority to be the lowest interrupt priority in the system. */
     SYSTEM_setExceptionPriority(SYSTEM_PENDSV_EXCEPTION, 0XFF);
