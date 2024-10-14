@@ -1,7 +1,8 @@
 # MamOS - Real-Time Operating System Kernel
 > Just a hobby, won't be big and professional like FreeRTOS ;)
 
-MamOS is a priority-based real-time operating system (RTOS) designed for efficient task management in embedded systems. Built for the **STM32F401x** (ARM Cortex-M4) and architected for portability, MamOS offers key scheduling and synchronization features, making it a powerful foundation for real-time applications.
+
+MamOS is a priority-based Real-Time Operating System (RTOS) designed for efficient task management in embedded systems. Built for the **STM32F401x** (ARM Cortex-M4) and architected for portability, MamOS offers key scheduling and synchronization features, making it a powerful foundation for real-time applications.
 
 ## 🚀 Key Features  
 - **Priority-Based Scheduling:** Ensures high-priority tasks are executed promptly.  
